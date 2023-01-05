@@ -1,0 +1,16 @@
+local BlekLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/bleklib/main/library.lua"))()
+
+local win = BlekLib:Create({
+    Name = "Mount Everest⛰️Auto-Climb V3",
+    StartupSound = {
+        Toggle = true,
+        SoundID = "rbxassetid://9116395085",
+        TimePosition = 1
+    }
+})
+
+local uitab = win:Tab('Click me!')
+
+uitab:Button('Enable Auto-Climb', function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sysGhost-aka-BiKode/Scripts2023/main/ProtectedMountEverest%202023.lua",true))()
+end)

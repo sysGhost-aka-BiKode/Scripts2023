@@ -12,5 +12,5 @@ local win = BlekLib:Create({
 local uitab = win:Tab('Click me!')
 
 uitab:Button('Enable Auto-Climb', function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sysGhost-aka-BiKode/Scripts2023/main/ProtectedMountEverest%202023.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sysGhost-aka-BiKode/Scripts2023/main/MEV3.lua",true))()
 end)
